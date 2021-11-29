@@ -21,7 +21,7 @@ class _DetailScreenState extends State<DetailScreen> {
     return Scaffold(
       backgroundColor: kPrimaryColor,
       appBar: AppBar(
-        title: Text(this.widget.game.name),
+        title: Center(child: Text(this.widget.game.name)),
       ),
       body: DefaultTabController(
         length: 3,
